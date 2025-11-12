@@ -1,0 +1,73 @@
+
+/* DFL Foundations — Bright NGO Theme (Blue, White, Yellow) */
+:root{
+  --brand:#0077b6; --accent:#ffd166; --muted:#667; --bg:#3e5d85; --card:#fff;
+  --maxw:1100px;
+}
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, Arial, sans-serif; margin:0; color:#123; background:var(--bg); line-height:1.6}
+.container{max-width:var(--maxw); margin:0 auto; padding:20px}
+.site-header{background:linear-gradient(90deg, rgba(216, 137, 137, 0.7), rgba(255,255,255,0.7)); border-bottom:1px solid #e6f2fb; position:sticky; top:0; z-index:40}
+.header-inner{display:flex; align-items:center; gap:16px; padding:12px 20px}
+.brand{display:flex; gap:12px; align-items:center; text-decoration:none; color:inherit}
+.logo{width:100px; height:100px}
+.brand h1{margin:0; font-size:1.1rem}
+.tagline{margin:0; color:var(--muted); font-size:0.9rem}
+.nav{margin-left:auto; display:flex; gap:12px; align-items:center}
+.nav a{padding:8px 10px; color:var(--brand); text-decoration:none; font-weight:600}
+.nav .donate-cta{background:var(--accent); color:#123; border-radius:8px; padding:8px 12px}
+.nav-toggle{display:none; background:none; border:none; font-size:20px; margin-left:12px}
+
+/* Hero */
+.hero{padding:40px 0}
+.hero-slideshow .slide{background-size:cover; background-position:center; border-radius:12px; padding:60px 20px; color:#012}
+.hero-inner{max-width:800px; margin:0 auto; text-align:center; background:rgba(255,255,255,0.85); padding:22px; border-radius:10px}
+.hero .lead{color:var(--muted)}
+
+/* Grids and cards */
+.grid-2{display:grid; grid-template-columns:repeat(2,1fr); gap:18px}
+.grid-3{display:grid; grid-template-columns:repeat(3,1fr); gap:18px}
+.card{background:var(--card); border:1px solid #e6f4fb; padding:16px; border-radius:10px}
+.img-thumb{width:100%; height:160px; object-fit:cover; border-radius:8px}
+
+/* Quick stats */
+.quick-stats{margin:20px 0}
+.stat{background:linear-gradient(90deg,#fff,#f8fbff); padding:18px; border-radius:8px; text-align:center}
+.stat strong{display:block; font-size:1.6rem; color:var(--brand)}
+
+/* Causes */
+.causes .card img{width:100%; height:140px; object-fit:cover; border-radius:8px}
+
+/* CTA slim */
+.cta-slim{background:var(--brand); color:#fff; margin:30px 0; border-radius:10px}
+.cta-inner{display:flex; align-items:center; justify-content:space-between; gap:12px; padding:18px}
+.btn{display:inline-block; padding:10px 14px; background:var(--brand); color:#fff; text-decoration:none; border-radius:8px; border:none; cursor:pointer}
+.btn.ghost{background:transparent; color:var(--brand); border:2px solid rgba(0,0,0,0.05)}
+.btn.large{padding:12px 18px}
+
+/* Forms */
+.form-card input, .form-card textarea, .form-card select{width:100%; padding:8px; margin-top:6px; border:1px solid #d9eefb; border-radius:8px}
+.form-card label{display:block; margin-bottom:10px}
+
+/* Footer */
+.site-footer{background:#fff; border-top:1px solid #e6f4fb; padding:24px 0; margin-top:30px}
+.footer-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:18px}
+.plain-list{list-style:none; padding:0; margin:0}
+.plain-list li{margin-bottom:6px}
+
+/* Gallery */
+.gallery-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px}
+
+/* Responsive */
+@media(max-width:900px){
+  .grid-3{grid-template-columns:repeat(2,1fr)}
+  .grid-2{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .nav{display:none}
+  .nav-toggle{display:block}
+}
+@media(max-width:600px){
+  .grid-3{grid-template-columns:1fr}
+  .logo{width:48px;height:48px}
+}
+.muted{color:var(--muted); font-size:0.95rem;}

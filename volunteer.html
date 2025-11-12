@@ -1,0 +1,69 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Volunteer — DFL Foundations</title><link rel="stylesheet" href="styles.css"/></head><body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.svg" alt="DFL Foundations" class="logo" />
+      <div>
+        <h1>DFL Foundations</h1>
+        <p class="tagline">Together for a Better Tomorrow</p>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="donate.html" class="donate-cta">Donate</a>
+      <a href="volunteer.html">Volunteer</a>
+      <a href="events.html">Events</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="csr.html">CSR</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+  </div>
+</header>
+
+<main class="container">
+  <h2>Volunteer With Us</h2>
+  <p>Join our network of volunteers — fill the form below.</p>
+  <form id="volunteerForm" class="card form-card" onsubmit="handleVolunteer(event)">
+    <label>Name<br/><input name="name" required></label>
+    <label>Email<br/><input type="email" name="email" required></label>
+    <label>Phone<br/><input name="phone" required></label>
+    <label>City<br/><input name="city"></label>
+    <label>Areas of Interest<br/><input name="interests" placeholder="Education, Health, Events"></label>
+    <label>Available Dates / Times<br/><input name="availability"></label>
+    <button class="btn" type="submit">Submit</button>
+    <p id="volunteerStatus" class="muted"></p>
+  </form>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>DFL Foundations</h4>
+        <p>Empowering communities through education, health & dignity.</p>
+        <p>Email: <a href="mailto:info@dflfoundations.org">info@dflfoundations.org</a></p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="plain-list">
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Address</h4>
+        <p>Noida, Uttar Pradesh, India</p>
+        <p>Phone: +91 9999309839</p>
+      </div>
+    </div>
+    <div class="copyright">© DFL Foundations — All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script></body></html>

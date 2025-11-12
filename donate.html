@@ -1,0 +1,79 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Donate — DFL Foundations</title><link rel="stylesheet" href="styles.css"/></head><body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <img src="dfl-logo.png.png" alt="DFL Foundations" class="logo" />
+      <div>
+        <h1>DFL Foundations</h1>
+        <p class="tagline">Together for a Better Tomorrow</p>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="donate.html" class="donate-cta">Donate</a>
+      <a href="volunteer.html">Volunteer</a>
+      <a href="events.html">Events</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="csr.html">CSR</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+  </div>
+</header>
+
+<main class="container">
+  <h2>Donate</h2>
+  <p>Your donation helps run our programs. This is a frontend demo — integrate a payment gateway for real donations.</p>
+  <form id="donationForm" class="card form-card" onsubmit="handleDonate(event)">
+    <label>Full Name<br/><input name="name" required></label>
+    <label>Email<br/><input type="email" name="email" required></label>
+    <label>Amount (INR)<br/>
+      <div class="donation-presets">
+        <button type="button" class="preset" data-amount="500">₹500</button>
+        <button type="button" class="preset" data-amount="1000">₹1000</button>
+        <button type="button" class="preset" data-amount="2500">₹2500</button>
+        <button type="button" class="preset" data-amount="5000">₹5000</button>
+      </div>
+      <input type="number" name="amount" min="1" required />
+    </label>
+    <label>Message (optional)<br/><textarea name="message"></textarea></label>
+    <button class="btn" type="submit">Proceed to Donate (Demo)</button>
+    <p class="muted">Note: This demo does not process payments. Integrate Razorpay/Stripe for live donations.</p>
+  </form>
+  <aside class="donor-info card">
+    <h4>Bank Transfer (Example)</h4>
+    <p>Bank: Example Bank<br/>A/C: 1234567890<br/>IFSC: EXAMP001234</p>
+  </aside>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>DFL Foundations</h4>
+        <p>Empowering communities through education, health & dignity.</p>
+        <p>Email: <a href="mailto:info@dflfoundations.org">info@dflfoundations.org</a></p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="plain-list">
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Address</h4>
+        <p>Noida, Uttar Pradesh, India</p>
+        <p>Phone: +91 9999309839</p>
+      </div>
+    </div>
+    <div class="copyright">© DFL Foundations — All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script></body></html>
