@@ -4,41 +4,49 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>DFL Foundations — Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <link rel="stylesheet" href="styles.css" />
 </head>
+<head>
+    <style>
+        .topbar {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 8px 20px;
+        }
+
+        .social-icons {
+          margin-left: auto;
+        }
+
+        .social-icons a i {
+          color: rgb(57, 91, 171);
+          margin-left: 15px;
+          font-size: 18px;
+        }
+    </style>
+</head>
+
 <body>
+
    <!-- Topbar Start -->
-    <div class="container-fluid bg-dark">
-        <div class="row py-2 px-lg-5">
-            <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
-                <div class="d-inline-flex align-items-center text-white">
-                    <small><i class="fa fa-phone-alt mr-2"></i>++91 9999309839</small>
-                    <small class="px-3">|</small>
-                    <small><i class="fa fa-envelope mr-2"></i>info@example.com</small>
-                </div>
-            </div>
-            <div class="col-lg-6 text-center text-lg-right">
-                <div class="d-inline-flex align-items-center">
-                    <a class="text-white px-2" href="">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a class="text-white px-2" href="">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a class="text-white px-2" href="">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a class="text-white px-2" href="">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a class="text-white pl-2" href="">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
+<div class="topbar">
+    <div class="contact-info">
+        <span><i class="fas fa-phone-alt"></i> +91 9999309839</span>
+        <span><i class="fas fa-envelope"></i> info@dflfoundations.org</span>
     </div>
-    <!-- Topbar End -->
+
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+</div>
+
+<!-- Topbar End -->
+
 
 
 <header class="site-header">
@@ -64,7 +72,12 @@
     </nav>
     <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
   </div>
+
 </header>
+<!-- Header Banner Image Section -->
+<section class="header-banner">
+    <img src="CP-banner-website.jpg" alt="DFL Foundation Banner" class="header-banner-img">
+</section>
 
 
 <main class="container">
@@ -173,3 +186,8 @@
 <script src="script.js"></script>
 </body>
 </html>
+
+
+
+ 
+
