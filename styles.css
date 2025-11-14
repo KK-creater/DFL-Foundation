@@ -1,5 +1,4 @@
 
-
 /* DFL Foundations — Bright NGO Theme (Blue, White, Yellow) */
 :root{
   --brand:#0077b6; --accent:#ffd166; --muted:#667; --bg:#dadfe5; --card:#fff;
@@ -103,4 +102,58 @@ body{font-family:Inter, system-ui, Arial, sans-serif; margin:0; color:#123; back
   object-fit: cover;
   border-radius: 0;
 }
+
+/* About Section (Mission + Vision) */
+.about-block {
+    margin-top: 30px;
+}
+
+.about-row {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.about-text h3 {
+    margin-top: 0;
+}
+
+.about-img img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #e6f4fb;
+}
+
+/* Team Section */
+.team-grid .team-card {
+    text-align: center;
+}
+
+.team-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Responsive for Mobile */
+@media(max-width: 900px) {
+    .about-row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-img img {
+        height: 150px;
+    }
+
+    .team-card img {
+        height: 150px;
+    }
+}
+
 
