@@ -1,7 +1,8 @@
 
+
 /* DFL Foundations — Bright NGO Theme (Blue, White, Yellow) */
 :root{
-  --brand:#0077b6; --accent:#ffd166; --muted:#667; --bg:#3e5d85; --card:#fff;
+  --brand:#0077b6; --accent:#ffd166; --muted:#667; --bg:#dadfe5; --card:#fff;
   --maxw:1100px;
 }
 *{box-sizing:border-box}
@@ -9,6 +10,24 @@ body{font-family:Inter, system-ui, Arial, sans-serif; margin:0; color:#123; back
 .container{max-width:var(--maxw); margin:0 auto; padding:20px}
 .site-header{background:linear-gradient(90deg, rgba(216, 137, 137, 0.7), rgba(255,255,255,0.7)); border-bottom:1px solid #e6f2fb; position:sticky; top:0; z-index:40}
 .header-inner{display:flex; align-items:center; gap:16px; padding:12px 20px}
+/* Social icons Right Side */
+.social-icons {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.social-icons a i {
+  color: var(--brand);
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.social-icons a i:hover {
+  color: var(--accent);
+}
+
 .brand{display:flex; gap:12px; align-items:center; text-decoration:none; color:inherit}
 .logo{width:100px; height:100px}
 .brand h1{margin:0; font-size:1.1rem}
@@ -71,3 +90,17 @@ body{font-family:Inter, system-ui, Arial, sans-serif; margin:0; color:#123; back
   .logo{width:48px;height:48px}
 }
 .muted{color:var(--muted); font-size:0.95rem;}
+
+/* Header Banner Image */
+.header-banner {
+  width: 100%;
+  margin-top: 0;
+}
+
+.header-banner-img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
