@@ -1,167 +1,301 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>About — DFL Foundations</title><link rel="stylesheet" href="styles.css"/></head><body>
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>DFL Foundations — Home</title>
+  <title>About Us — DFL Foundations</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <link rel="stylesheet" href="styles.css" />
-</head>
-<head>
-    <style>
-        .topbar {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 8px 20px;
-        }
-
-        .social-icons {
-          margin-left: auto;
-        }
-
-        .social-icons a i {
-          color: rgb(57, 91, 171);
-          margin-left: 15px;
-          font-size: 18px;
-        }
-    </style>
 </head>
 
 <body>
 
-   <!-- Topbar Start -->
-<div class="topbar">
+  <!-- Topbar Start -->
+  <div class="topbar">
     <div class="contact-info">
-        <span><i class="fas fa-phone-alt"></i> +91 9999309839</span>
-        <span><i class="fas fa-envelope"></i> info@dflfoundations.org</span>
+      <span><i class="fas fa-phone-alt"></i> +91 9999309839</span>
+      <span><i class="fas fa-envelope"></i> info@dflfoundations.org</span>
     </div>
 
     <div class="social-icons">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
     </div>
-</div>
-
-<!-- Topbar End -->
-<header class="site-header">
-  <div class="container header-inner">
-    <a class="brand" href="index.html">
-      <img src="dfl-logo.png.png" alt="DFL Foundations" class="logo" />
-      <div>
-        <h1>DFL Foundations</h1>
-        <p class="tagline">Together for a Better Tomorrow</p>
-      </div>
-    </a>
-    <nav class="nav">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="donate.html" class="donate-cta">Donate</a>
-      <a href="volunteer.html">Volunteer</a>
-      <a href="events.html">Events</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="csr.html">CSR</a>
-      <a href="blog.html">Blog</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
   </div>
-</header>
+  <!-- Topbar End -->
 
-<main class="container">
-  <section class="section">
-    <h2>About DFL Foundations</h2>
-    <p>DFL Foundations is a non-profit organization committed to building a brighter, more equitable future for all.
-       We focus on transforming lives through impactful initiatives in education, healthcare, and livelihood development, empowering vulnerable communities to rise with dignity and opportunity.</p>
-    <div class="grid-2">
-      <section class="section about-block">
-    <div class="grid-2 about-row">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="dfl-logo.png.png" alt="DFL Foundations" class="logo" />
+        <div>
+          <h1>DFL Foundations</h1>
+          <p class="tagline">Together for a Better Tomorrow</p>
+        </div>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+
+        <!-- About Us Dropdown -->
+        <div class="dropdown nav-item">
+          <a href="about.html" class="dropdown-toggle">About Us</a>
+          <div class="dropdown-menu">
+            <a href="#mission">Our Mission</a>
+            <a href="#journey">Our Journey So Far</a>
+            <a href="#team">Our Team</a>
+            <a href="#values">Our Values</a>
+          </div>
+        </div>
+
+        <a href="projects.html">Projects</a>
+        <a href="donate.html" class="donate-cta">Donate</a>
+        <a href="volunteer.html">Volunteer</a>
+        <a href="events.html">Events</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="csr.html">CSR</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <!-- Header Banner Image Section -->
+  <section class="header-banner">
+    <img src="download (Aboutt Header Baneer).jpg" alt="About DFL Foundation" class="header-banner-img">
+  </section>
+
+  <main class="container">
+
+    <!-- About Introduction -->
+    <section class="section">
+      <h2>About DFL Foundations</h2>
+      <p style="text-align: center; max-width: 900px; margin: 0 auto; font-size: 1.125rem; color: var(--gray-600);">
+        DFL Foundations is a non-profit organization committed to building a brighter, more equitable future for all.
+        We focus on transforming lives through impactful initiatives in education, healthcare, and livelihood
+        development,
+        empowering vulnerable communities to rise with dignity and opportunity.
+      </p>
+    </section>
+
+    <!-- Mission & Vision Section -->
+    <section class="section about-block" id="mission">
+      <div class="about-row">
         <div class="about-text">
-            <h3>Our Mission</h3>
-            <p>
-                At DFL Foundations, our mission is to empower individuals and transform communities 
-                through sustainable initiatives in education, healthcare, and livelihood development.
-                We are committed to creating equal opportunities that nurture learning, ensure well-being,
-                and promote economic independence.
-            </p>
+          <h3><i class="fas fa-bullseye" style="color: var(--primary); margin-right: 0.5rem;"></i>Our Mission</h3>
+          <p>
+            At DFL Foundations, our mission is to empower individuals and transform communities
+            through sustainable initiatives in education, healthcare, and livelihood development.
+            We are committed to creating equal opportunities that nurture learning, ensure well-being,
+            and promote economic independence. Through collaborative partnerships and community-driven
+            approaches, we strive to create lasting positive change in the lives of those we serve.
+          </p>
         </div>
         <div class="about-img">
-            <img src="download (Mission).jpg" alt="Our Mission">
+          <img src="download (Mission).jpg" alt="Our Mission">
         </div>
-    </div>
+      </div>
 
-    <div class="grid-2 about-row">
+      <div class="about-row">
         <div class="about-img">
-            <img src="images (Vision).png" alt="Our Vision">
+          <img src="images (Vision).png" alt="Our Vision">
         </div>
         <div class="about-text">
-            <h3>Our Vision</h3>
-            <p>
-                To create a society where every individual has access to quality education, good health,
-                and a dignified means of livelihood — enabling people to live with equality, purpose, 
-                and hope.
-            </p>
+          <h3><i class="fas fa-eye" style="color: var(--primary); margin-right: 0.5rem;"></i>Our Vision</h3>
+          <p>
+            To create a society where every individual has access to quality education, good health,
+            and a dignified means of livelihood — enabling people to live with equality, purpose,
+            and hope. We envision communities where opportunities are abundant, resources are accessible,
+            and every person can realize their full potential regardless of their background or circumstances.
+          </p>
         </div>
-    </div>
-</section>
-
-  <section class="team section">
-    <h3>Our Team</h3>
-    <div class="grid-3 team-grid">
-        
-        <div class="team-card card">
-            <img src="Dinesh-Kumar-Tiwari-Director-1236x1236 (1).jpeg" alt="team">
-            <h4>Dinesh Kumar Tiwari</h4>
-            <p>Founder & Director</p>
-        </div>
-
-        <div class="team-card card">
-            <img src="Kamlesh-Kumar-Pandey-Director-1236x1236.jpeg" alt="team">
-            <h4>Kamlesh Kumar Pandey</h4>
-            <p>Programs Lead</p>
-        </div>
-
-        <div class="team-card card">
-            <img src="Akash-Kumar-Director-988x988.jpeg" alt="team">
-            <h4>Akash Kumar</h4>
-            <p>Health Coordinator</p>
-        </div>
-
-    </div>
-</section>
-
-</main>
-
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div>
-        <h4>DFL Foundations</h4>
-        <p>Empowering communities through education, health & dignity.</p>
-        <p>Email: <a href="mailto:info@dflfoundations.org">info@dflfoundations.org</a></p>
       </div>
-      <div>
-        <h4>Quick Links</h4>
-        <ul class="plain-list">
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="donate.html">Donate</a></li>
-          <li><a href="volunteer.html">Volunteer</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Address</h4>
-           B 331 , Logix Technova Sector 132,Noida UP-201305, INDIA
-           <p>Contact No: +91 9999309839</p>
-              Email: sales@dflindia.in 
-            <p>Whatsapp: </p>
-      </div>
-    </div>
-    <div class="copyright">© DFL Foundations — All rights reserved.</div>
-  </div>
-</footer>
+    </section>
 
-<script src="script.js"></script></body></html>
+    <!-- Our Journey So Far Section -->
+    <section class="section" id="journey">
+      <h2>Our Journey So Far</h2>
+      <div class="about-row" style="flex-direction: column; text-align: center;">
+        <div class="about-text">
+          <p style="font-size: 1.125rem; line-height: 1.8; max-width: 900px; margin: 0 auto;">
+            Founded with a vision to create meaningful social impact, DFL Foundations has grown from a small initiative
+            to a comprehensive organization serving thousands across multiple states. Our journey began with a simple
+            belief: that every individual deserves access to basic necessities and opportunities for growth.
+          </p>
+          <br>
+          <p style="font-size: 1.125rem; line-height: 1.8; max-width: 900px; margin: 0 auto;">
+            Over the years, we have expanded our reach through strategic partnerships with state governments and
+            local communities. Today, we operate across multiple regions, impacting over 200,000 lives through
+            improved education, healthcare access, and livelihood opportunities. Our programs have evolved to
+            address the changing needs of communities, always staying true to our core mission of empowerment
+            and sustainable development.
+          </p>
+          <br>
+          <div class="grid-3" style="margin-top: 2rem;">
+            <div class="stat">
+              <strong>2015</strong>
+              <span>Year Founded</span>
+            </div>
+            <div class="stat">
+              <strong>200,000+</strong>
+              <span>Lives Impacted</span>
+            </div>
+            <div class="stat">
+              <strong>3 States</strong>
+              <span>Operational Reach</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Values Section -->
+    <section class="section" id="values">
+      <h2>Our Values</h2>
+      <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem; color: var(--gray-600);">
+        Our core values guide everything we do and shape how we serve our communities.
+      </p>
+
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-icon">
+            <i class="fas fa-heart"></i>
+          </div>
+          <h4>Compassion</h4>
+          <p>We approach every individual and community with empathy, understanding, and genuine care for their
+            well-being.</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon">
+            <i class="fas fa-handshake"></i>
+          </div>
+          <h4>Integrity</h4>
+          <p>We maintain the highest standards of honesty and transparency in all our operations and relationships.</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h4>Collaboration</h4>
+          <p>We believe in the power of partnerships and work together with communities, governments, and stakeholders.
+          </p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <h4>Innovation</h4>
+          <p>We continuously seek creative solutions to address complex social challenges and improve our impact.</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon">
+            <i class="fas fa-balance-scale"></i>
+          </div>
+          <h4>Equity</h4>
+          <p>We are committed to ensuring equal access to opportunities and resources for all, regardless of background.
+          </p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon">
+            <i class="fas fa-leaf"></i>
+          </div>
+          <h4>Sustainability</h4>
+          <p>We design programs that create long-term positive change and empower communities to thrive independently.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Team Section -->
+    <section class="team section" id="team">
+      <h2>Our Team</h2>
+      <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem; color: var(--gray-600);">
+        Meet the dedicated individuals who drive our mission forward with passion and expertise.
+      </p>
+
+      <div class="team-grid">
+        <div class="team-card">
+          <img src="Dinesh-Kumar-Tiwari-Director-1236x1236 (1).jpeg" alt="Dinesh Kumar Tiwari">
+          <h4>Dinesh Kumar Tiwari</h4>
+          <p>Founder & Director</p>
+          <p style="font-size: 0.875rem; color: var(--gray-600); padding: 0 1rem 1rem;">
+            Leading DFL Foundations with a vision to create sustainable social impact through education and healthcare
+            initiatives.
+          </p>
+        </div>
+
+        <div class="team-card">
+          <img src="Kamlesh-Kumar-Pandey-Director-1236x1236.jpeg" alt="Kamlesh Kumar Pandey">
+          <h4>Kamlesh Kumar Pandey</h4>
+          <p>Programs Lead</p>
+          <p style="font-size: 0.875rem; color: var(--gray-600); padding: 0 1rem 1rem;">
+            Overseeing program implementation and ensuring effective delivery of services to communities in need.
+          </p>
+        </div>
+
+        <div class="team-card">
+          <img src="Akash-Kumar-Director-988x988.jpeg" alt="Akash Kumar">
+          <h4>Akash Kumar</h4>
+          <p>Health Coordinator</p>
+          <p style="font-size: 0.875rem; color: var(--gray-600); padding: 0 1rem 1rem;">
+            Coordinating health camps and medical initiatives to improve healthcare access in underserved areas.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-slim">
+      <div class="cta-inner">
+        <h3>Join Us in Making a Difference</h3>
+        <div style="display: flex; gap: 1rem;">
+          <a class="btn large" href="donate.html" style="background: white; color: var(--primary);">Donate Now</a>
+          <a class="btn ghost large" href="volunteer.html" style="border-color: white; color: white;">Become a
+            Volunteer</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>DFL Foundations</h4>
+          <p>Empowering communities through education, health & dignity.</p>
+          <p>Email: <a href="mailto:info@dflfoundations.org">info@dflfoundations.org</a></p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="plain-list">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Address</h4>
+          <p>B 331, Logix Technova<br>Sector 132, Noida<br>UP-201305, INDIA</p>
+          <p>Contact: +91 9999309839</p>
+          <p>Email: sales@dflindia.in</p>
+        </div>
+      </div>
+      <div class="copyright">© 2024 DFL Foundations — All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
