@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -7,187 +8,195 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <head>
-    <style>
-        .topbar {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 8px 20px;
-        }
+  <style>
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 20px;
+    }
 
-        .social-icons {
-          margin-left: auto;
-        }
+    .social-icons {
+      margin-left: auto;
+    }
 
-        .social-icons a i {
-          color: rgb(57, 91, 171);
-          margin-left: 15px;
-          font-size: 18px;
-        }
-    </style>
+    .social-icons a i {
+      color: rgb(57, 91, 171);
+      margin-left: 15px;
+      font-size: 18px;
+    }
+  </style>
 </head>
 
 <body>
 
-   <!-- Topbar Start -->
-<div class="topbar">
+  <!-- Topbar Start -->
+  <div class="topbar">
     <div class="contact-info">
-        <span><i class="fas fa-phone-alt"></i> +91 9999309839</span>
-        <span><i class="fas fa-envelope"></i> info@dflfoundations.org</span>
+      <span><i class="fas fa-phone-alt"></i> +91 9999309839</span>
+      <span><i class="fas fa-envelope"></i> info@dflfoundations.org</span>
     </div>
 
     <div class="social-icons">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
     </div>
-</div>
-
-<!-- Topbar End -->
-
-
-
-<header class="site-header">
-  <div class="container header-inner">
-    <a class="brand" href="index.html">
-      <img src="dfl-logo.png.png" alt="DFL Foundations" class="logo" />
-      <div>
-        <h1>DFL Foundations</h1>
-        <p class="tagline">Together for a Better Tomorrow</p>
-      </div>
-    </a>
-    <nav class="nav">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="donate.html" class="donate-cta">Donate</a>
-      <a href="volunteer.html">Volunteer</a>
-      <a href="events.html">Events</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="csr.html">CSR</a>
-      <a href="blog.html">Blog</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
   </div>
 
-</header>
-<!-- Header Banner Image Section -->
-<section class="header-banner">
+  <!-- Topbar End -->
+
+
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="dfl-logo.png.png" alt="DFL Foundations" class="logo" />
+        <div>
+          <h1>DFL Foundations</h1>
+          <p class="tagline">Together for a Better Tomorrow</p>
+        </div>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+
+        <!-- About Us Dropdown -->
+        <div class="dropdown nav-item">
+          <a href="about.html" class="dropdown-toggle">About Us</a>
+          <div class="dropdown-menu">
+            <a href="about.html#mission">Our Mission</a>
+            <a href="about.html#journey">Our Journey So Far</a>
+            <a href="about.html#team">Our Team</a>
+            <a href="about.html#values">Our Values</a>
+          </div>
+        </div>
+
+        <a href="projects.html">Projects</a>
+        <a href="donate.html" class="donate-cta">Donate</a>
+        <a href="volunteer.html">Volunteer</a>
+        <a href="events.html">Events</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="csr.html">CSR</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+
+  </header>
+  <!-- Header Banner Image Section -->
+  <section class="header-banner">
     <img src="CP-banner-website.jpg" alt="DFL Foundation Banner" class="header-banner-img">
-</section>
+  </section>
 
 
-<main class="container">
-  <section class="hero hero-slideshow">
-    <div class="slide" style="background-image:url('assets/images/hero1.svg')">
-      <div class="hero-inner">
-        <h2>Bringing education & healthcare to underserved communities</h2>
-        <p class="lead">Your support transforms lives. See our projects and how you can help.</p>
-        <div class="hero-actions">
-          <a class="btn" href="donate.html">Donate Now</a>
-          <a class="btn ghost" href="volunteer.html">Volunteer</a>
+  <main class="container">
+    <section class="hero hero-slideshow">
+      <div class="slide" style="background-image:url('assets/images/hero1.svg')">
+        <div class="hero-inner">
+          <h2>Bringing education & healthcare to underserved communities</h2>
+          <p class="lead">Your support transforms lives. See our projects and how you can help.</p>
+          <div class="hero-actions">
+            <a class="btn" href="donate.html">Donate Now</a>
+            <a class="btn ghost" href="volunteer.html">Volunteer</a>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="quick-stats">
-    <div class="grid-3">
-      <div class="stat"><strong>1,200+</strong><span>Children Supported</span></div>
-      <div class="stat"><strong>350+</strong><span>Health Camps</span></div>
-      <div class="stat"><strong>45</strong><span>Active Projects</span></div>
-    </div>
-  </section>
+    <section class="quick-stats">
+      <div class="grid-3">
+        <div class="stat"><strong>1,200+</strong><span>Children Supported</span></div>
+        <div class="stat"><strong>350+</strong><span>Health Camps</span></div>
+        <div class="stat"><strong>45</strong><span>Active Projects</span></div>
+      </div>
+    </section>
 
-  <section class="causes">
-    <h3>Our Focus Areas</h3>
-    <div class="grid-3">
-      <article class="card">
-        <img src="images (5).jpg" alt="education" />
-        <h4>Education & Learning</h4>
-        <p>School support, scholarships, digital literacy programs for children and youth.</p>
-      </article>
-      <article class="card">
-        <img src="images (6).jpg" alt="health" />
-        <h4>Health & Hygiene</h4>
-        <p>Medical camps, hygiene awareness and partnerships with local clinics.</p>
-      </article>
-      <article class="card">
-        <img src="images (7).jpg" alt="livelihood" />
-        <h4>Livelihood & Women Empowerment</h4>
-        <p>Skills training, micro-enterprise support and community programs.</p>
-      </article>
-    </div>
-  </section>
+    <section class="causes">
+      <h3>Our Focus Areas</h3>
+      <div class="grid-3">
+        <article class="card">
+          <img src="images (5).jpg" alt="education" />
+          <h4>Education & Learning</h4>
+          <p>School support, scholarships, digital literacy programs for children and youth.</p>
+        </article>
+        <article class="card">
+          <img src="images (6).jpg" alt="health" />
+          <h4>Health & Hygiene</h4>
+          <p>Medical camps, hygiene awareness and partnerships with local clinics.</p>
+        </article>
+        <article class="card">
+          <img src="images (7).jpg" alt="livelihood" />
+          <h4>Livelihood & Women Empowerment</h4>
+          <p>Skills training, micro-enterprise support and community programs.</p>
+        </article>
+      </div>
+    </section>
 
-  <section class="featured-projects">
-    <h3>Featured Projects</h3>
-    <div class="grid-2">
-      <div class="project card">
-        <img src="download (3).jpg" alt="project" />
-        <div class="project-body">
-          <h4>Community Learning Centres</h4>
-          <p>Setting up learning hubs in rural areas with trained volunteers and digital resources.</p>
-          <a href="projects.html" class="link-more">Read more →</a>
+    <section class="featured-projects">
+      <h3>Featured Projects</h3>
+      <div class="grid-2">
+        <div class="project card">
+          <img src="download (3).jpg" alt="project" />
+          <div class="project-body">
+            <h4>Community Learning Centres</h4>
+            <p>Setting up learning hubs in rural areas with trained volunteers and digital resources.</p>
+            <a href="projects.html" class="link-more">Read more →</a>
+          </div>
+        </div>
+        <div class="project card">
+          <img src="download (4).jpg" alt="project" />
+          <div class="project-body">
+            <h4>Mobile Health Camps</h4>
+            <p>Regular health camps offering free check-ups, medicines, and hygiene kits.</p>
+            <a href="projects.html" class="link-more">Read more →</a>
+          </div>
         </div>
       </div>
-      <div class="project card">
-        <img src="download (4).jpg" alt="project" />
-        <div class="project-body">
-          <h4>Mobile Health Camps</h4>
-          <p>Regular health camps offering free check-ups, medicines, and hygiene kits.</p>
-          <a href="projects.html" class="link-more">Read more →</a>
+    </section>
+
+    <section class="cta-slim">
+      <div class="cta-inner">
+        <h3>Ready to make an impact?</h3>
+        <a class="btn large" href="donate.html">Donate</a>
+        <a class="btn ghost large" href="volunteer.html">Volunteer</a>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>DFL Foundations</h4>
+          <p>Empowering communities through education, health & dignity.</p>
+          <p>Email: <a href="mailto:info@dflfoundations.org">info@dflfoundations.org</a></p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="plain-list">
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Address</h4>
+          <p>Noida, Uttar Pradesh, India</p>
+          <p>Phone: +91 9999309839</p>
         </div>
       </div>
+      <div class="copyright">© DFL Foundations — All rights reserved.</div>
     </div>
-  </section>
-
-  <section class="cta-slim">
-    <div class="cta-inner">
-      <h3>Ready to make an impact?</h3>
-      <a class="btn large" href="donate.html">Donate</a>
-      <a class="btn ghost large" href="volunteer.html">Volunteer</a>
-    </div>
-  </section>
-
-</main>
+  </footer>
 
 
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div>
-        <h4>DFL Foundations</h4>
-        <p>Empowering communities through education, health & dignity.</p>
-        <p>Email: <a href="mailto:info@dflfoundations.org">info@dflfoundations.org</a></p>
-      </div>
-      <div>
-        <h4>Quick Links</h4>
-        <ul class="plain-list">
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="donate.html">Donate</a></li>
-          <li><a href="volunteer.html">Volunteer</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Address</h4>
-        <p>Noida, Uttar Pradesh, India</p>
-        <p>Phone: +91 9999309839</p>
-      </div>
-    </div>
-    <div class="copyright">© DFL Foundations — All rights reserved.</div>
-  </div>
-</footer>
-
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
-
-
-
- 
-
